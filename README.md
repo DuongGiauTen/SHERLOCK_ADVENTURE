@@ -60,5 +60,40 @@ The SHERLOCK ADVENTURE GAME: A STUDY IN PINK project is a highly complex game lo
 Open a terminal and run:
 ```bash
 g++ -o main main.cpp study_in_pink2.cpp -I . -std=c++11
+```
+Once compiled successfully, execute the program with:
+```bash
+./main
+```
+### 5. PROJECT STRUCTURE
+- main.cpp:
+  The entry point of the program.
+
+- study_in_pink2.h /      study_in_pink2.cpp:
+  Files where the core logic of the project must be implemented according to the specifications.
+
+- Configuration File:
+  Contains initialization parameters for the map and moving objects.
+
+- Additional Files (if any):
+  Other source files, sample data files, or documentation that support the project.
 
 
+### 6. Testing Instructions
+- TestStudyInPink:
+
+  - This class is used to ensure that all modules work correctly.
+  - It covers scenarios such as movement of Sherlock, Watson, and Criminal, robot encounters, and item usage through the inventory system.
+Debugging and Output:
+
+- Utilize the functions `printStep` and `printResult` to monitor the state of the system at each step for debugging and verification purposes.
+
+
+### 7. Contact & Contribution
+- **Contact Information**:
+
+For any questions or support, please contact duongtranminh253@gmail.com.
+
+- **Contributions**:
+
+If this project is released as open source, provide guidelines for contributions including the pull request process and coding standards.
