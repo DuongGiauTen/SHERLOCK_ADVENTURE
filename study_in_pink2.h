@@ -1,22 +1,11 @@
-﻿/*
- * Ho Chi Minh City University of Technology
- * Faculty of Computer Science and Engineering
- * Initial code for Assignment 1
- * Programming Fundamentals Spring 2023
- * Author: Vu Van Tien
- * Date: 02.02.2023
- */
+﻿
 
- // The library here is concretely set, students are not allowed to include any other libraries.
+
 #ifndef _H_STUDY_IN_PINK_2_H_
 #define _H_STUDY_IN_PINK_2_H_
 
 #include "main.h"
-////////////////////////////////////////////////////////////////////////
-/// STUDENT'S ANSWER BEGINS HERE
-/// Complete the following functions
-/// DO NOT modify any parameters in the functions.
-////////////////////////////////////////////////////////////////////////
+
 
 // Forward declaration
 class MovingObject;
@@ -684,8 +673,7 @@ public:
 			<< sherlock->str() << "--|--" << watson->str() << "--|--" << criminal->str() << endl;
 	}
 
-	// Note: This is a sample code. You can change the implementation as you like.
-			// TODO
+
 	void run(bool verbose) {
 		for (int istep = 0; istep < config->num_steps; ++istep) {
 			for (int i = 0; i < arr_mv_objs->size(); ++i) {
@@ -726,7 +714,5 @@ public:
 	}
 };
 
-////////////////////////////////////////////////
-/// END OF STUDENT'S ANSWER
-////////////////////////////////////////////////
-#endif /* _H_STUDY_IN_PINK_2_H_ */
+
+#endif 
